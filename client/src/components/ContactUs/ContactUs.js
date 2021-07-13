@@ -28,9 +28,9 @@ export default function ContactUs() {
       </FormGroup>
       <FormGroup>
         <Label for="message">Your Message</Label>
-        <Input type="textarea" name="message" />
+        <Input type="textarea" name="message" placeholder="message" />
       </FormGroup>
-      <input type="submit" value="Send" />
+      <input type="submit" value="Send" className="btn btn-primary mt-1" />
     </form>
   );
 }
