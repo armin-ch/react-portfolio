@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <Container>
     <h1>About Me</h1>
-    <p>I am a developer</p>
+      <p>My name is Armin. I am learning full-stack web development and I will update this page as I learn more throughout the intensive course I'm currently taking. I am 24 years old and I'm from Irvine, California. I graduated in 2019 from UCSB with a bachelor of science in neuroscience.</p>
     </Container>
   )
 }

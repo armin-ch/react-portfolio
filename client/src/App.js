@@ -9,6 +9,8 @@ import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
 import Home from './pages/Home'
 import MyNavBar from './components/MyNavBar'
+import { Container, Row, Col } from 'reactstrap'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -26,6 +28,7 @@ const App = () => {
             <Contact />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   )
